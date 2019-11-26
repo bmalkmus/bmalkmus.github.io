@@ -2,7 +2,7 @@ body {
     width:960px;
     box-sizing: border-box;
     margin:0 auto;
-    background-color: orange;
+    background-image: url("/assets/images/congruent_outline.png")
 
 }
 
@@ -86,6 +86,20 @@ h1 {
 img {
     float: left;
     margin: 0px 25px 25px 25px;
+}
+
+input {
+    width:100%;
+}
+textarea {
+    width:100%
+}
+
+.projects {
+    width: 250px;
+    height: 175px;
+    margin: 10px;
+    background-color: green
 }
 
 
