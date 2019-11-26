@@ -95,11 +95,36 @@ textarea {
     width:100%
 }
 
+#portfolio-content {
+    height: 625px;
+}
+
 .projects {
     width: 250px;
     height: 175px;
     margin: 10px;
-    background-color: green
+    background-color: green;
+    position: relative
+
+}
+
+
+#pro2 {
+    bottom:185px;
+    left:265px;
+}
+
+#pro3 {
+    bottom:165px;
+}
+
+#pro4 {
+    bottom: 350px;
+    left: 265px;
+}
+
+#pro5 {
+    bottom: 330px;
 }
 
 
