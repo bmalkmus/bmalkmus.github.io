@@ -1,0 +1,62 @@
+body {
+    width:960px;
+    box-sizing: border-box;
+}
+
+#header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#name-box { 
+    float: left;
+}
+
+#name { 
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 25px;
+    
+}
+
+.links {
+    float: right;
+    position: relative;
+    bottom: -10px;
+}
+
+.border {
+    border-right:solid;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+#container {
+    position: absolute;
+    top: 80px;
+    width: 960px;
+    border: solid 1px #cccccc;
+    padding:25px;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    margin: 25px;
+}
+
+#content {
+    margin: 0 auto;
+
+}
+
+.p {line-height: 200%;}
+
+img {
+    float: left;
+    margin: 0px 25px 25px 25px;
+}
+
+
+
+
