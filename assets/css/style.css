@@ -1,8 +1,16 @@
+body html {
+    height: 100%;
+}
+
 body {
     width:960px;
     box-sizing: border-box;
     margin:0 auto;
     background-image: url(../images/congruent_outline.png);
+    /* Background pattern from Toptal Subtle Patterns */
+    display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -65,13 +73,14 @@ header li {
 }
 
 #container {
-    position: absolute;
-    top: 80px;
+    position: relative;
+    top: 15px;
     width: 960px;
     border: solid 1px #cccccc;
     padding:25px;
     box-sizing: border-box;
     background-color: #ffffff;
+    flex: 1 0 auto;
     
 }
 
@@ -98,7 +107,13 @@ img {
     margin: 0px 25px 25px 25px;
     height: 150px;
     width: 150px;
-    
+
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666
 }
 
 input {
@@ -136,6 +151,12 @@ p {
     font-size: 25px;
     font-weight: bold;
 
+}
+
+footer.footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 8px
+    color #ffffff;
 }
 
 #pro1 {
