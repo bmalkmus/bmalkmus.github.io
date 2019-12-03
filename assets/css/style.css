@@ -3,7 +3,6 @@ body html {
 }
 
 body {
-    width:960px;
     box-sizing: border-box;
     margin:0 auto;
     background-image: url(../images/congruent_outline.png);
@@ -15,10 +14,16 @@ body {
 }
 
 header {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;;
-    background-color:#ffffff;
+    background-color: #ffffff;
+}
+
+.header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     padding-bottom: 0px;
     border-bottom: solid 1px #cccccc;
+    width:960px;
+    margin: 0 auto;
+
 }
 
 header::after {
@@ -40,9 +45,6 @@ header::after {
     bottom: -25px;
     color: #777777;
     float: right;
-    margin
-    
-    
 }
 
 a:link {
@@ -81,6 +83,7 @@ header li {
     box-sizing: border-box;
     background-color: #ffffff;
     flex: 1 0 auto;
+    margin: 0 auto;
     
 }
 
@@ -113,7 +116,10 @@ img {
 footer {
     flex-shrink: 0;
     border-top: 8px solid #4aaaa5;
-    background-color: #666666
+    background-color: #666666;
+    Width: 100%;
+    margin: 0 auto;
+
 }
 
 input {
