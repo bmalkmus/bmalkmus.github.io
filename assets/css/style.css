@@ -1,20 +1,21 @@
-body html {
-    height: 100%;
+html {
+    min-height: 100%;
+    position: relative;
 }
 
 body {
     box-sizing: border-box;
-    margin:0 auto;
-    background-image: url(../images/congruent_outline.png);
+    margin:0 auto 75px;
+    background: url(../images/congruent_outline.png);
     /* Background pattern from Toptal Subtle Patterns */
-    display: flex;
-    flex-direction: column;
+    
 
 
 }
 
 header {
     background-color: #ffffff;
+    width:100%;
 }
 
 .header {
@@ -54,8 +55,8 @@ a:link {
 
 a:visited {
     color: #777777;
-    text-decoration: none;
 }
+
 
 header ul {
     Margin:0;
@@ -82,8 +83,7 @@ header li {
     padding:25px;
     box-sizing: border-box;
     background-color: #ffffff;
-    flex: 1 0 auto;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     
 }
 
@@ -114,11 +114,15 @@ img {
 }
 
 footer {
-    flex-shrink: 0;
+    
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     Width: 100%;
     margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
 
 }
 
@@ -131,19 +135,27 @@ textarea {
 
 #portfolio-content {
     height: 625px;
+    grid-template-areas:
+        "pro1 pro2 . ."
+        "pro3 pro4 . ."
+        "pro5 . . .";
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 35px;
 }
 
 .projects {
     width: 250px;
     height: 175px;
-    margin: 10px;
-    position: relative;
+    
 
 }
 
 .project-title {
-    position: absolute;
-    bottom:05px;
+    position: relative;
+    top:100px;
     box-sizing: border-box;
     width:100%;
     background-color: #4aaaa5;
@@ -167,29 +179,33 @@ footer.footer {
 
 #pro1 {
     background-image: url(../images/pic1.jpg);
+    grid-area: pro1;
 }
 
 
 #pro2 {
-    bottom:185px;
-    left:265px;
+
+ 
     background-image: url(../images/pic2.jpg);
+    grid-area: pro2;
 }
 
 #pro3 {
-    bottom:165px;
+
     background-image: url(../images/pic3.jpg);
+    grid-area: pro3;
 }
 
 #pro4 {
-    bottom: 350px;
-    left: 265px;
+
     background-image: url(../images/pic4.jpg);
+    grid-area:pro4;
 }
 
 #pro5 {
-    bottom: 330px;
+ 
     background-image: url(../images/pic5.jpg);
+    grid-area:pro5;
 }
 
 
