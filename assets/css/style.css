@@ -1,156 +1,108 @@
-html {
-    min-height: 100%;
-    position: relative;
+.name {
+    background-color: #109dac;
+    color:#f1e9dd;
+    font-size: 25px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    padding:5px;
+    margin: 0px;
+    border-radius: 5%;
+    box-shadow: 5px 5px #af9879;
+}
+
+.nameP{
+    color:rgb(1,84,134);
+    font-size: 30px;
+    font-family:'Kaushan Script', cursive;
+    padding:5px;
+    margin: 0px;
+    font-weight: bolder;
+    text-shadow: 2px 5px #3884b6;
+}
+.navhead {
+    height: 100%;
+    margin: 0 0 25px 0;
+    padding: 0px;
+    border-bottom: 3px solid rgb(1,84,134);
+
+}
+.context {
+    background-color: #f1e9dd;
+    border: #af9879 solid 4px;
+    padding: 5px;
+    box-shadow: 5px 5px darkgrey;
+
+}
+.header-link{
+    background-color: #f1e9dd;
+    color: rgb(1,84,134);
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 0px
+}
+
+.topNav {
+    background-color: #f1e9dd;
+}
+
+.list-link{
+    border-right: solid 1px rgb(1,84,134);
 }
 
 body {
-    box-sizing: border-box;
-    margin:0 auto 75px;
-    background: url(../images/congruent_outline.png);
-    /* Background pattern from Toptal Subtle Patterns */
-    
+    background-image: url(../images/underwater.jpg);
+    background-size: cover;
 
-
-}
-
-header {
-    background-color: #ffffff;
-    width:100%;
-}
-
-.header {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding-bottom: 0px;
-    border-bottom: solid 1px #cccccc;
-    width:960px;
-    margin: 0 auto;
-
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-#name { 
-    float: left;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    margin: 0px 10px 0px 0px;
-    padding:15px
-}
-
-.links {
-    position: relative;
-    bottom: -25px;
-    color: #777777;
-    float: right;
-}
-
-a:link {
-    color: #777777;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #777777;
-}
-
-
-header ul {
-    Margin:0;
-    padding:0;
-    list-style: none;
-    
-}
-
-header li {
-    display:inline-block;
-}
-
-.border {
-    border-right:solid;
-    margin-right: 10px;
-    padding-right: 10px;
-}
-
-#container {
-    position: relative;
-    top: 15px;
-    width: 960px;
-    border: solid 1px #cccccc;
-    padding:25px;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    margin: 0 auto 75px;
-    
 }
 
 h1 {
-    margin: 25px;
-    color: #4aaaa5;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+padding: 0 0 15px 0;
+border-bottom: 3px solid rgb(1,84,134);
+font-family:'Georgia', Times, 'Times New Roman', serif;
+color: #109dac;
+text-shadow: 2px 0px rgb(1,84,134);
 }
 
-#content {
-    margin: 0 auto;
-    color: #777777;
-
+.profilePic {
+    border-radius: 50%;
 }
 
-.p {
-    line-height: 200%;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-align: justify;
+.popUp {
+    text-align: center;
+    background-color: rosybrown;
+    box-shadow: 10px -10px #3884b6;
 }
 
-img {
-    float: left;
-    margin: 0px 25px 25px 25px;
-    height: 150px;
-    width: 150px;
-
+.contact-button {
+    background-color: #109dac;
+    color: #f1e9dd;
+    border-color: #109dac;
+    border-radius: 0px;
 }
 
-footer {
-    
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    Width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 75px;
-
+form {
+    color:rgb(1,84,134);
 }
 
-input {
-    width:100%;
-}
-textarea {
-    width:100%
+#picture {
+    margin: auto;
 }
 
-#portfolio-content {
-    height: 625px;
-    grid-template-areas:
-        "pro1 pro2 . ."
-        "pro3 pro4 . ."
-        "pro5 . . .";
-    display: grid;
-    grid-template-columns: min-content;
-    grid-template-rows: auto;
-    grid-column-gap: 15px;
-    grid-row-gap: 35px;
+.top-buffer{
+    margin-top: 20px;
 }
 
 .projects {
-    width: 250px;
-    height: 175px;
-    
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15%;
+}
 
+.close{
+    cursor: pointer;
+    color:rgb(1,84,134);
+    text-size-adjust: 25%;
 }
 
 .project-title {
@@ -158,56 +110,64 @@ textarea {
     top:100px;
     box-sizing: border-box;
     width:100%;
-    background-color: #4aaaa5;
-
+    background-color: #109dac;
+    color: #f1e9dd;
 }
 
-p {
-    text-align: center;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
 
+#pro1{
+    background-image: url(../images/ParkApp.png);
+    background-size: cover;
 }
 
-footer.footer {
+#pro2{
+    background-image: url(../images/WorkdayPlan.png);
+    background-size: cover;
+}
+
+#pro3{
+    background-image: url(../images/WeatherApp.png);
+    background-size: cover;
+}
+
+#pro4{
+    background-image: url(../images/Quiz.png);
+    background-size: cover;
+}
+
+#pro5{
+    background-image: url(../images/Burger_App.png);
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    .name {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+footer {
+    
+    border-top: 8px solid rgb(1,84,134);
+    background-color: #af9879;
+    Width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+}
+
+a {
+    color: hsl(203,52,46);
+    font-weight:bold;
+}
+
+.footer23 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 8px
-    color #ffffff;
+    font-size: 20px;
+    color: #f1e9dd;
+    text-align: center;
+    margin-bottom: 0;
 }
-
-#pro1 {
-    background-image: url(../images/pic1.jpg);
-    grid-area: pro1;
-}
-
-
-#pro2 {
-
- 
-    background-image: url(../images/pic2.jpg);
-    grid-area: pro2;
-}
-
-#pro3 {
-
-    background-image: url(../images/pic3.jpg);
-    grid-area: pro3;
-}
-
-#pro4 {
-
-    background-image: url(../images/pic4.jpg);
-    grid-area:pro4;
-}
-
-#pro5 {
- 
-    background-image: url(../images/pic5.jpg);
-    grid-area:pro5;
-}
-
-
-
-
