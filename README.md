@@ -9,4 +9,4 @@ Background was pulled from Toptal Subtle Patterns. Images for my projects where 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 ## Deployment
-https://bmalkmus.github.io/bmalkmus.github.io/
+https://bmalkmus.github.io
