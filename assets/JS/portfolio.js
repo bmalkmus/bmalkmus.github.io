@@ -16,7 +16,7 @@ $('document').ready(function(){
         });
         screenshot.css('border', '2px solid #109dac');
         let github = $('<a>').attr({href: this.dataset.deployed, target: "_blank"});
-        $(github).html('GitHub Deployment')
+        $(github).html('Deployment')
         let gitHubP = $('<p>');
         let repoP = $("<p>");
         let repo = $('<a>').attr({href: this.dataset.repo, target: "_blank"});

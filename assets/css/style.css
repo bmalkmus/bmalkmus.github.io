@@ -131,15 +131,20 @@ form {
 }
 
 #pro4{
-    background-image: url(../images/Quiz.png);
+    background-image: url(../images/main.png);
     background-size: cover;
 }
+
 
 #pro5{
     background-image: url(../images/Burger_App.png);
     background-size: cover;
 }
 
+#pro6{
+    background-image: url(../images/Quiz.png);
+    background-size: cover;
+}
 @media (max-width:768px) {
     .name {
         width: 100%;
@@ -157,6 +162,7 @@ footer {
     left: 0;
     bottom: 0;
     height: 75px;
+    clear: both;
 }
 
 a {
