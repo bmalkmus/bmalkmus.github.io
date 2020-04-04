@@ -1,3 +1,9 @@
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
 .name {
     background-color: #109dac;
     color:#f1e9dd;
@@ -18,13 +24,11 @@
     font-weight: bolder;
     text-shadow: 2px 5px #3884b6;
 }
-.navhead {
-    height: 100%;
-    margin: 0 0 25px 0;
-    padding: 0px;
-    border-bottom: 3px solid rgb(1,84,134);
 
+.context-wrapper{
+    flex: 1 0 auto;
 }
+
 .context {
     background-color: #f1e9dd;
     border: #af9879 solid 4px;
@@ -41,15 +45,21 @@
 
 .topNav {
     background-color: #f1e9dd;
+    flex-shrink: 0;
 }
 
 .list-link{
     border-right: solid 1px rgb(1,84,134);
 }
 
+html, body{
+    min-height:100%;
+}
+
 body {
     background-image: url(../images/underwater.jpg);
     background-size: cover;
+    height: 100vh;
 
 }
 
@@ -156,13 +166,10 @@ footer {
     
     border-top: 8px solid rgb(1,84,134);
     background-color: #af9879;
-    Width: 100%;
+    width: 100%;
     margin: 0 auto;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     height: 75px;
-    clear: both;
+    flex-shrink: 0;
 }
 
 a {
@@ -177,3 +184,4 @@ a {
     text-align: center;
     margin-bottom: 0;
 }
+
