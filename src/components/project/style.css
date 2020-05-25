@@ -1,0 +1,104 @@
+.card {
+    border: 3px solid rgb(1,84,134);
+    margin: 1rem;
+    margin-left: 12.5%;
+    margin-bottom: 12.5%;
+    width: 75%;
+    box-shadow: 0 3px 6px black, 0 3px 6px black;
+    text-align: center;
+    background-color:  #af9879;
+}
+
+h2 {
+    padding: 0 0 15px 0;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    color: rgb(1,84,134);
+    text-shadow: 2px 0px 5px #109dac;
+    text-align: center;
+}
+
+.information {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.screenshot {
+    width: 60%;
+    
+}
+.card-contain {
+    display: -webkit-inline-box;
+}
+.projectContent {
+    width: 75%;
+   
+}
+
+.BTN{
+    color:#109dac;
+    width: 12.5%;
+    border: none;
+    font-size: 50px;
+    font-weight: bolder;
+    
+    
+}
+
+.links{
+    text-align: justify;
+    font-weight: 900;
+    color: #109dac;
+    font-size: 18px;
+}
+
+a{
+    color:#109dac;
+    text-shadow: 2px 2px 2px rgb(1,84,134);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(1,84,134)
+}
+
+
+
+@media only screen and (max-width: 686px){
+    .BTN{
+        font-size: 30px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 540px){
+    .BTN{
+        font-size: 25px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 330px){
+    .BTN{
+        font-size: 15px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 199px){
+    h2{
+        font-size: 25px;
+        
+    }
+    .BTN {
+        font-size:8px;
+    }
+    
+}
