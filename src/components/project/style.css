@@ -50,6 +50,10 @@ span {
     
 }
 
+.BTN:hover {
+    cursor: pointer;
+}
+
 .links{
     text-align: justify;
     font-weight: 900;
