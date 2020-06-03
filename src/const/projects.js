@@ -2,6 +2,15 @@
 
 export const projects = [
     {
+        name: "Real Deals",
+        deployed: "https://real--deals.herokuapp.com/",
+        repo: "https://github.com/bmalkmus/project3",
+        imgPath: `${process.env.PUBLIC_URL}/images/RealDeals.png`,
+        technologies: "React, Axios, Barcode Spider API, MySQL, Sequelize, jsonwebtoken, React-Bootstrap",
+        description: "This app, Real Deals, is designed to help our users to search multiple website platforms to find the cheapest price."
+    },
+
+    {
         name: "Bootleg Cooking",
         deployed:"https://arcane-escarpment-28279.herokuapp.com/",
         repo: "https://github.com/rnyang-16/Project_2",
