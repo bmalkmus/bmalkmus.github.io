@@ -18,14 +18,16 @@ h2 {
 }
 
 .information {
-    font-size: 12px;
+    font-size: 18px;
     text-align: left;
     margin-top: 15px;
 }
 
-span {
+.link-title {
     font-weight: bolder;
     text-decoration: underline;
+    color: rgb(1,84,134);
+    text-align: left;
 }
 
 .screenshot {

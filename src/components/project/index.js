@@ -15,18 +15,18 @@ function ProjectCard ({name, deployed, repo, imagePath, btnClick, descript, tech
             <div className ="projectContent">
                 <img className = "screenshot" src = {imagePath} alt ={name}/>
 
-                <p className = "information"> <span>Description:</span> {descript} </p>
+                <p className = "information"> <span className = "link-title">Description:</span> {descript} </p>
 
-                <p className = "information"> <span>Technologies Used:</span> {tech} </p>
+                <p className = "information"> <span className = "link-title">Technologies Used:</span> {tech} </p>
 
-                <p className = "links"> 
+                <p className = "link-title"> 
                     Deployed: 
 
                     <a className = "links" target = "_blank" rel="noopener noreferrer" href ={deployed}>
                         {deployed}
                     </a> 
                 </p>
-                <p className = "links"> 
+                <p className = "link-title"> 
                     Github: 
                     <a  className = "links" target = "_blank" rel="noopener noreferrer" href ={repo}>
                         {repo}
