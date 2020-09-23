@@ -10,6 +10,14 @@ export const projects = [
         description: "Our app, Bootleg Cooking, is designed to help our users find a new recipe to try for a meal using ingredients the user already has in their household."
     },
     {
+        name: "RealDeals",
+        deployed:"https://real--deals.herokuapp.com/",
+        repo: "https://github.com/bmalkmus/project3",
+        imgPath: `${process.env.PUBLIC_URL}/images/Search.png`,
+        technologies: "MySQL, Express.js, React.js, Node.js",
+        description: "Our app, Real Deals, is designed to help our users to search multiple website platforms to find the cheapest price."
+    },
+    {
         name: "Park & Dinner",
         deployed:"https://github.com/bmalkmus/getOutsideApp",
         repo: "https://bmalkmus.github.io/getOutsideApp/",
